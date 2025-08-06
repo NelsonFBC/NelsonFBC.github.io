@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synapse - Coming Soon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #22D3EE, #A5F3FC);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white antialiased">
+    <div class="min-h-screen flex flex-col items-center justify-center p-6 text-center">
+        
+        <!-- Logo -->
+        <div class="mb-8">
+            <img src="https://i.imgur.com/vHqJ5Yq.png" alt="Synapse Logo" class="w-48 mx-auto">
+        </div>
+
+        <!-- Main Headline -->
+        <h1 class="text-4xl md:text-5xl font-bold max-w-2xl leading-tight">
+            You Already Own the Best Hardware. <span class="gradient-text">It's Time to Unlock Its Brain.</span>
+        </h1>
+
+        <!-- Sub-headline -->
+        <p class="text-lg text-gray-400 mt-6 max-w-xl">
+            Stop paying for another device. Synapse is the intelligence layer that turns your Garmin's raw data into powerful, personalized recovery insights.
+        </p>
+
+        <!-- Email Signup Form -->
+        <div class="mt-10 w-full max-w-lg">
+            <p class="mb-4 font-semibold">Be the first to know when we launch.</p>
+            <!-- Replace with your actual email form provider's code -->
+            <form action="#" method="POST" class="flex flex-col sm:flex-row gap-3">
+                <input 
+                    type="email" 
+                    name="email" 
+                    required 
+                    class="w-full px-4 py-3 rounded-md bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 text-white" 
+                    placeholder="Enter your email address">
+                <button 
+                    type="submit" 
+                    class="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-md transition duration-300 whitespace-nowrap">
+                    Notify Me
+                </button>
+            </form>
+            <p class="text-xs text-gray-500 mt-3">Sign up for early access and a lifetime discount. No spam, ever.</p>
+        </div>
+
+    </div>
+</body>
+</html>
